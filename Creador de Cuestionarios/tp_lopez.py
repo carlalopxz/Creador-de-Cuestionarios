@@ -13,7 +13,7 @@ else:
 
 #CREACION DE CARPETAS
 
-directorio = r"D:\repositorios\trabajo_practico_n2\cuestionarios"
+directorio = r"cuestionarios"
 try:
     os.mkdir(directorio)
 except OSError:
@@ -21,7 +21,7 @@ except OSError:
 else:
     print("Se ha creado el directorio: %s " % directorio)
 
-directorio = r"D:\repositorios\trabajo_practico_n2\respuestas"
+directorio = r"respuestas"
 try:
     os.mkdir(directorio)
 except OSError:
